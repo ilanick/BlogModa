@@ -1,0 +1,182 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background-image: url(../imagenes.jpg/textura.jpg);
+  color: black;
+  font-family: "Zen Antique Soft", serif;
+  font-size: 18px;
+  line-height: 15px; }
+
+h1 {
+  text-decoration: underline;
+  line-height: 15px;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  text-align: center; }
+
+h2 {
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  text-decoration: none;
+  line-height: 25px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+nav a,
+ul {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block; }
+
+p {
+  font-size: 18px;
+  margin: 20px 20px;
+  line-height: 25px; }
+
+.parallax {
+  background-image: url("../imagenes.jpg/fondoContacto.png");
+  /* Set a specific height */
+  height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+footer {
+  background: #edf3eb;
+  background-image: url(../imagenes.jpg/textura.jpg);
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+  max-width: 100%;
+  max-height: auto;
+  margin-top: 0px;
+  padding: 5px 0px; }
+
+.logonInsta {
+  width: 20px;
+  transition: transform 1s;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%; }
+  .logonInsta:hover {
+    transform: scale(1.2); }
+
+.footerContacto {
+  position: fixed;
+  bottom: 3%;
+  width: 100%;
+  height: 20%;
+  /* altura del Footer */ }
+
+.LetraDisminuida1 {
+  text-align: justify;
+  margin-right: 10%; }
+
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+  padding: 0px;
+  font-weight: 500;
+  border: 1px solid #996e2e;
+  border-radius: 3px;
+  padding: 5px 10px; }
+  nav ul lihover {
+    background-color: #a7a48e; }
+
+.imagenPrincipal {
+  max-width: 100%;
+  max-height: 100%; }
+
+.imagenSection {
+  height: 80%;
+  margin-left: 10%;
+  width: 80%;
+  display: grid;
+  align-items: center;
+  transition: transform 1.5s; }
+  .imagenSection:hover {
+    transform: scale(1.3); }
+
+.section {
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center; }
+
+.fotoPortada {
+  width: 500px; }
+
+.carousel-inner {
+  margin-top: 40px;
+  max-height: 100%;
+  max-width: 100%;
+  display: flexbox;
+  position: center; }
+
+.imagenPrincipalContacto {
+  max-width: 100%;
+  max-height: 100%; }
+
+.imagenBienvenido {
+  max-width: 100%;
+  max-height: 100%; }
+
+.Popright {
+  display: flex;
+  flex-direction: column-reverse; }
+
+.form-control {
+  width: 100%; }
+
+.botonenviar {
+  margin-left: 20%;
+  margin-bottom: 20%; }
+
+.Formcontent {
+  width: 100%; }
+
+.formularioContacto {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2%; }
+
+.conteiner {
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #eed1c6;
+  font-size: medium;
+  padding: auto; }
+
+.parallax {
+  background-image: url("../imagenes.jpg/fondoContacto.png");
+  min-height: 50%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 120%; }
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+  section {
+    display: grid;
+    flex-direction: column;
+    font-size: xx-large;
+    color: #24251d; } }
+
+@media only screen and (max-device-width: 800px) {
+  .parallax {
+    background-attachment: scroll; } }
+
+/* celular*/
+@media only screen and (max-device-width: 800px) {
+  .parallax {
+    background-attachment: scroll; } }
